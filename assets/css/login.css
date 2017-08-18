@@ -1,0 +1,56 @@
+.sign{
+
+	margin-top:15px;
+	float:right;
+	font-size: 16px !important;
+	
+}
+.sign:hover{
+   text-decoration: none;
+   font-size: bold !important;
+   font-family: "微软雅黑";
+   color: blue !important;
+
+}
+.pd-b-18{
+	margin-top: 0px;
+	font-size: 20px !important;
+}
+.error{
+	
+	color:red;
+	
+}
+.notice{
+
+	margin: 0 auto;
+	font-size: 24px;
+	text-align: center;
+	color: yellow;
+}
+.noticediv{
+    margin: 0 auto;
+	margin-top: 7%;
+	width: 70%;
+	font-size: 24px;
+	text-align: center;
+	color: yellow;
+	z-index: -10;
+}
+.hidden{
+	margin-top: -30px !important;
+	display: none !important;
+}
+.btn.len{
+	width:100% !important;
+	margin-left: -8px !important;
+	height:40px !important;
+
+}
+#home{
+	float:right;
+	margin-top: 7%;
+	margin-right: 10%;
+	height: 50px;
+	width: 50px; 
+}

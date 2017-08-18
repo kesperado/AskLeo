@@ -1,0 +1,144 @@
+.fixname{
+	height: 40px !important;
+	text-align: center !important;
+
+   
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+
+}
+.backimg{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+
+
+}
+.tablefix{
+	table-layout:fixed;
+}
+.namefixlen{
+	width: 800px !important;
+	height: 23px !important;
+	overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+
+}
+.wid-60{
+	width: 60px !important;
+}
+.ft-right{
+	float: right;
+}
+.hideA{
+top: -90px !important;
+}
+.showA{
+	top:2% !important;
+z-index: 200;
+}
+.description{
+	padding: 2px;
+	width: 800px;
+	transition:top 0.5s;
+     /*overflow:auto;
+    text-overflow:ellipsis;
+    white-space:nowrap;*/
+  
+}
+.downlabel{
+	background: url("../../images/down.png") center top no-repeat;
+	background-size: contain;
+	width: 20px;
+	height: 20px;
+}
+.downlabel:hover{
+cursor: pointer;
+background-color: rgba(225,225,225);
+
+
+}
+.uplabel{
+	background: url("../../images/up.png") center top no-repeat;
+	background-size: contain;
+	width: 20px;
+	height: 20px;
+}
+.uplabel:hover{
+cursor: pointer;
+background-color: rgba(225,225,225);
+
+
+}
+.minheight80{
+	min-height: 80px;
+}
+.error{
+	color: red !important;
+}
+.noactive{
+    background-color: #fff;
+    border: 1px solid rgb(203,213,233);
+    border-top:1px solid #009AD7;
+    border: transparent;
+}
+.active{
+	background-color: #fff;
+    border: 1px solid rgb(203,213,233);
+    border-top:1px solid #009AD7;
+}
+.noactive:hover{
+	
+	background-color: #fff;
+    border: 1px solid rgb(203,213,233);
+    border-top:1px solid #009AD7;
+}
+.active:hover{
+	text-decoration: none;
+
+	
+}
+.active.pagesplit{
+	border:0;
+}
+.navsearch{
+	margin-left: 60px;
+	padding-left: 0px;
+	font-size: 18px;
+	width: 980px;
+    //background-color: #eee;
+   
+    height: 40px;
+    //border-top-left-radius:5px;
+    margin-bottom:-11px; 
+    border-bottom: 1px solid rgb(203,213,233);
+    overflow: hidden;
+}
+.navsearch div{
+
+	  //border-right: 1px solid rgb(203,213,233);
+	  width:110px;
+	  height: 100%;
+	  margin-right: 10px;
+	  border-top-left-radius:5px;
+	  border-top-right-radius:5px;
+	  overflow:hidden;
+      text-overflow:ellipsis;
+      white-space:nowrap;
+	  float: left;
+
+}
+.navsearch div a{
+	margin-top:7px; 
+	text-align: center;
+	height: 100%;
+	width: 100%;
+	float: left;
+	text-decoration: none;
+}
+.praisenoactive{
+background-color: #9E9E9E;
+}	
